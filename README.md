@@ -2,7 +2,7 @@
 ## by Daniel Toader
 ### Date: May 29, 2015
 #### Description
-This is a Drupal 7.x custom module that prevents the Subject field from being displayed on the "guestbook" welcome screen for Cameroon's Bakery.
+This is a Drupal 7.x custom module that prevents the Subject field and user name from being displayed on the "guestbook" welcome screen for Cameroon's Bakery.
 
 #### Setup instructions
 1. Import this module into your Drupal core's sites/all/modules/ directory.
