@@ -4,5 +4,6 @@ function bakery_user_form_alter(&$form, &$form_state, $form_id) {
     // hook checks to make sure it is only hiding the subject in comments having the title of 'Welcome!'
     if($form_id == 'comment_node_page_form' && $form['#node']->title == 'Welcome!') {
         $form['subject']['#type'] = 'hidden';
+        $form['author']['_author']['#type'] = 'hidden';
     }
 }
