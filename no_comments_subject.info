@@ -3,3 +3,5 @@ description = Removes the subject line from comments
 package = Cameron's Nonsense
 core = 7.x
 files[] = no_comments_subject.module
+files[] = no_comments_subject.test
+dependencies[] = simpletest
